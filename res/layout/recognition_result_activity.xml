@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:id="@+id/label_contact_detail"
+			android:gravity="center_horizontal" android:layout_marginBottom="15px"
+			android:layout_marginTop="8px" android:text="@string/label_contact_detail" />
+
+		<ImageView android:id="@+id/image_recognition_result_picture"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_gravity="center_horizontal" android:maxHeight="250px"
+			android:maxWidth="250px" />
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:id="@+id/label_recognition_result_contact"
+			android:gravity="center_horizontal" android:layout_marginBottom="15px"
+			android:layout_marginTop="8px" />
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+
+		<LinearLayout android:orientation="vertical"
+			android:gravity="center_horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<Button android:layout_width="match_parent"
+				android:layout_weight=".5" android:layout_height="wrap_content"
+				android:id="@+id/button_recognition_result_new" android:text="@string/button_recognition_result_new" />
+
+			<Button android:layout_width="match_parent"
+				android:layout_weight=".5" android:layout_height="wrap_content"
+				android:id="@+id/button_recognition_result_exists" android:text="@string/button_recognition_result_exists" />
+
+		</LinearLayout>
+
+		<Button android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/button_recognition_result_back"
+			android:text="@string/button_back" />
+
+	</LinearLayout>
+</RelativeLayout>

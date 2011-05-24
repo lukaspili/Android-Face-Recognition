@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_contact_last_name">Nom :</string>
+    <string name="label_contact_first_name">Prénom :</string>
+    <string name="value_contact_last_name">Undefined last name</string>
+    <string name="value_contact_first_name">Undefined first name</string>
+    <string name="label_loading_list_contact_pictures">Chargement des photos du contact en cours...</string>
+    <string name="label_contact_detail">Détails du contact</string>
+    <string name="label_contact_edit">Modification du contact</string>
+    <string name="hint_contact_first_name">Renseignez le prénom</string>
+    <string name="hint_contact_last_name">Renseignez le nom</string>
+</resources>

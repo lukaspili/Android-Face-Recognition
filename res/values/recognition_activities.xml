@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_recognition_result_exists">Contact existant</string>
+    <string name="button_recognition_result_new">Nouveau contact</string>
+</resources>

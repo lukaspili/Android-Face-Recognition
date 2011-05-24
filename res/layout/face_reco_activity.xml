@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" android:text="@string/button_new_picture"
+		android:id="@+id/button_new_picture" android:layout_width="fill_parent"
+		android:layout_marginBottom="10px" android:layout_marginTop="10px" />
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/label_list_contacts"
+		android:text="@string/label_list_contacts" android:layout_width="match_parent" />
+
+	<ListView android:id="@+id/list_contacts"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+</LinearLayout>

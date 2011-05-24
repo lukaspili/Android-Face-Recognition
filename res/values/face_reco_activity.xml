@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button_new_picture">Prendre une photo</string>
+	<string name="label_list_contacts">Liste des contacts existants dans la base de donnée :</string>
+	<string name="label_list_contacts_empty">Vous n\'avez aucun contact identifié acutellement.
+		Prenez une personne en photo pour l\'identifier.</string>
+</resources>
